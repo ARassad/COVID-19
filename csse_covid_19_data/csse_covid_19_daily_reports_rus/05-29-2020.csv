@@ -1,2 +1,2 @@
-,FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths,Recovered,Active,Combined_Key,Incidence_Rate,Case-Fatality_Ratio
-3476,,,,Russia,2020-05-30 02:32:48,61.52401,105.318756,387623,4374,159257,223992,Russia,265.6144408935353,1.1284160124657203
+,FIPS,Admin2,Lat,Long_,Confirmed,Deaths,Recovered,Active,Combined_Key,Incidence_Rate,Case-Fatality_Ratio,Country/Region,Province/State,Last Update
+3476,,,61.52401,105.318756,387623,4374,159257,223992,Russia,265.6144408935353,1.1284160124657203,Russia,,2020-05-30 02:32:48

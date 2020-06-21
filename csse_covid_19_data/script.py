@@ -9,7 +9,16 @@ for f in files:
     try:
         r = d[d['Country/Region'] == 'Russia']
     except:
-        r = d[d['Country_Region'] == 'Russia']
+        d['Country/Region'] = d['Country_Region']
+        del d['Country_Region']
+        
+        d['Province/State'] = d['Province_State']
+        del d['Province_State']
+        
+        d['Last Update'] = d['Last_Update']
+        del d['Last_Update']
+        
+        r = d[d['Country/Region'] == 'Russia']
     if len(r) != 0:
         r.to_csv(f'X:\\DEL\\COVID-19\\csse_covid_19_data\\csse_covid_19_daily_reports_rus\\{f}')
 
