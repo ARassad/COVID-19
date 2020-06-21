@@ -12,6 +12,12 @@ for f in files:
         
         d.rename(columns={'Country_Region': 'Country/Region', 'Province_State': 'Province/State', 'Last_Update': 'Last Update'}, inplace=True)
         
+        d['Latitude'] = d['Lat']
+        d['Longitude'] = d['Long_']
+        
+        del d['Lat']
+        del d['Long_']
+        
         r = d[d['Country/Region'] == 'Russia']
     if len(r) != 0:
         r.to_csv(f'X:\\DEL\\COVID-19\\csse_covid_19_data\\csse_covid_19_daily_reports_rus\\{f}')
