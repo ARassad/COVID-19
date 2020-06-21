@@ -1,2 +1,2 @@
-,FIPS,Admin2,Lat,Long_,Confirmed,Deaths,Recovered,Active,Combined_Key,Country/Region,Province/State,Last Update
-3248,,,61.52401,105.318756,252245,2305,53530,196410,Russia,Russia,,2020-05-15 02:33:02
+,FIPS,Admin2,Province/State,Country/Region,Last Update,Lat,Long_,Confirmed,Deaths,Recovered,Active,Combined_Key
+3248,,,,Russia,2020-05-15 02:33:02,61.52401,105.318756,252245,2305,53530,196410,Russia

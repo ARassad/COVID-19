@@ -9,14 +9,8 @@ for f in files:
     try:
         r = d[d['Country/Region'] == 'Russia']
     except:
-        d['Country/Region'] = d['Country_Region']
-        del d['Country_Region']
         
-        d['Province/State'] = d['Province_State']
-        del d['Province_State']
-        
-        d['Last Update'] = d['Last_Update']
-        del d['Last_Update']
+        d.rename(columns={'Country_Region': 'Country/Region', 'Province_State': 'Province/State', 'Last_Update': 'Last Update'}, inplace=True)
         
         r = d[d['Country/Region'] == 'Russia']
     if len(r) != 0:
