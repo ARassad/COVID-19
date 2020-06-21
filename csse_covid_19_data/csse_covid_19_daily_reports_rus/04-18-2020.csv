@@ -1,2 +1,2 @@
-,FIPS,Admin2,Province/State,Country/Region,Last Update,Confirmed,Deaths,Recovered,Active,Combined_Key,Latitude,Longitude
-3007,,,,Russia,2020-04-18 22:32:28,36793,313,3057,33423,Russia,61.52401,105.31875600000001
+,Province/State,Country/Region,Last Update,Confirmed,Deaths,Recovered,Latitude,Longitude
+3007,,Russia,2020-04-18 22:32:28,36793,313,3057,61.52401,105.31875600000001

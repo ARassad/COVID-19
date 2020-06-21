@@ -18,6 +18,11 @@ for f in files:
         del d['Lat']
         del d['Long_']
         
+        del d['FIPS']
+        del d['Admin2']
+        del d['Active']
+        del d['Combined_Key']
+        
         r = d[d['Country/Region'] == 'Russia']
     if len(r) != 0:
         r.to_csv(f'X:\\DEL\\COVID-19\\csse_covid_19_data\\csse_covid_19_daily_reports_rus\\{f}')
